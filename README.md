@@ -15,6 +15,12 @@ Doing
 Incomplete
 -------
 - [ ] User Stories created
+- [ ] Us: Gutter ball
+- [ ] Us: Single frame game
+- [ ] Us: Multiple frame game
+- [ ] Us: Include strikes
+- [ ] Us: Include spares
+- [ ] Us: Game over
 - [ ] Domain Model design
 - [ ] JQuery - Frontend Gameplay
 - [ ] Styling / CSS
