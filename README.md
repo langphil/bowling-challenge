@@ -1,7 +1,38 @@
-
 Bowling Challenge
 =================
 
+A implementation of Bowling in JavaScript.
+Weekend five / six Makers Academy Challenge.
+
+Completed
+-------
+- [x] Dev environment setup
+
+Doing
+-------
+- [ ] Travis CI setup
+
+Incomplete
+-------
+- [ ] User Stories created
+- [ ] Domain Model design
+- [ ] JQuery - Frontend Gameplay
+- [ ] Styling / CSS
+- [ ] Testing: 100%
+- [ ] Heroku hosted
+
+
+Installation
+-------
+
+User Stories
+-------
+
+Screenshots
+-------
+
+Challenge Notes
+-------
 
 * Challenge time: rest of the day and weekend.
 * Feel free to use google, your notes, books, etc. but work on your own
