@@ -10,12 +10,11 @@ Completed
 
 Doing
 -------
-- [ ] Travis CI setup
+- [ ] Us: Gutter ball
 
 Incomplete
 -------
-- [ ] User Stories created
-- [ ] Us: Gutter ball
+
 - [ ] Us: Single frame game
 - [ ] Us: Multiple frame game
 - [ ] Us: Include strikes
@@ -26,21 +25,11 @@ Incomplete
 - [ ] Styling / CSS
 - [ ] Testing: 100%
 - [ ] Heroku hosted
+- [ ] Travis CI setup
 
 
 Installation
 -------
-
-User Stories
--------
-
-Domain Model
--------
-
- - Game (Contains: Set of pins & Set of Frame)
- - Pin
- - Frame
- - Ball
 
 Screenshots
 -------
