@@ -4,6 +4,9 @@ var Game = function() {
 };
 
 Game.prototype.newGame = function() {
-  frame = new Frame();
-  return frame;
+  this.rollBall(new Frame());
+};
+
+Game.prototype.rollBall = function(frame) {
+  this.frames.push(frame);
 };
