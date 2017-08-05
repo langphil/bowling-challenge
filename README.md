@@ -34,6 +34,14 @@ Installation
 User Stories
 -------
 
+Domain Model
+-------
+
+ - Game (Contains: Set of pins & Set of Frame)
+ - Pin
+ - Frame
+ - Ball
+
 Screenshots
 -------
 
