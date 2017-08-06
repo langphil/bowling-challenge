@@ -6,7 +6,7 @@ describe('Frame', function() {
 
   describe('Initialize', function() {
 
-    it('has an empty score array at beginning of frame', function() {
+    it('has an empty frame array at the start', function() {
       expect(frame.score).toEqual([null, null]);
     });
   });
