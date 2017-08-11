@@ -7,6 +7,8 @@ Weekend five / six Makers Academy Challenge.
 Completed
 -------
 - [x] Dev environment setup
+- [x] Us: Single frame game
+- [x] Us: Multiple frame game
 
 Doing
 -------
@@ -15,8 +17,7 @@ Doing
 Incomplete
 -------
 
-- [ ] Us: Single frame game
-- [ ] Us: Multiple frame game
+
 - [ ] Us: Include strikes
 - [ ] Us: Include spares
 - [ ] Us: Game over
