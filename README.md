@@ -7,20 +7,21 @@ Weekend five / six Makers Academy Challenge.
 Completed
 -------
 - [x] Dev environment setup
-- [x] Us: Single frame game
-- [x] Us: Multiple frame game
+- [x] Single frame game
+- [x] Multiple frame game
+- [x] Can do basic score addition
 
 Doing
 -------
-- [ ] Us: Gutter ball
+- [ ] It can roll a Gutter ball
 
 Incomplete
 -------
 
 
-- [ ] Us: Include strikes
-- [ ] Us: Include spares
-- [ ] Us: Game over
+- [ ] Include strikes
+- [ ] Include spares
+- [ ] Can reach a Game over
 - [ ] Domain Model design
 - [ ] JQuery - Frontend Gameplay
 - [ ] Styling / CSS

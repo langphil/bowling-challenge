@@ -16,10 +16,16 @@ describe('Game', function() {
   });
 
   describe('play', function() {
+
     it('can add points when rolled', function() {
       game.rollBall();
       spyOn(Frame.prototype, "_firstRoll").and.returnValue(1);
       expect(game.frames[0]._firstRoll).toEqual(1);
+    });
+
+    it('can add up the total score', function() {
+      for(var i = 0; i < 5; i++) { game.rollBall(); }
+      expect(game.score()).toEqual(5);
     });
   });
 });
