@@ -1,13 +1,16 @@
 describe('Frame', function() {
+  var frame;
 
-  beforeEach( function() {
+  beforeEach(function() {
     frame = new Frame();
   });
 
-  describe('Initialize', function() {
-
-    it('has an empty frame array at the start', function() {
-      expect(frame.score).toEqual([null, null]);
+  describe('initalize', function() {
+    it('should have the ability to record two rolls', function() {
+      expect(frame).toEqual(jasmine.objectContaining({
+        _firstRoll : null,
+        _secondRoll : null
+      }));
     });
   });
 });

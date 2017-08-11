@@ -1,38 +1,25 @@
 describe('Game', function() {
+  var game;
 
-  beforeEach( function() {
+  beforeEach(function() {
     game = new Game();
-    score = game.frames;
   });
 
-  describe('Initialize', function() {
+  describe('initialize', function() {
+    it('has an intial array of 10 frames', function() {
+      expect(game.frames.length).toEqual(10);
+    });
 
-    it('has an empty frame array at game start', function() {
-      expect(game.frames).toEqual([]);
+    it('has an initial roll count of 0', function() {
+      expect(game.frameCount).toEqual(0);
     });
   });
 
-  describe('Play', function() {
-
-    it('can roll a bowling ball', function() {
-      expect(game.rollBall()).toEqual(1);
-    });
-
-    it('can roll a gutter ball', function() {
+  describe('play', function() {
+    it('can add points when rolled', function() {
       game.rollBall();
-      game.frames.push((score[0] = 0) + (score[0] = 0));
-      expect(game.frames).toEqual([0,0]);
-    });
-
-    it('can generate a random score for a roll', function() {
-      expect(game.randomPoints()).toBeGreaterThan(0);
-      expect(game.randomPoints()).toBeLessThan(11);
-    });
-
-    it('can score points when rolled', function() {
-      game.rollBall();
-      expect(score[0].score[0]).toBeGreaterThan(0);
-      expect(score[0].score[0]).toBeLessThan(11);
+      spyOn(Frame.prototype, "_firstRoll").and.returnValue(1);
+      expect(game.frames[0]._firstRoll).toEqual(1);
     });
   });
 });

@@ -1,8 +1,12 @@
 var Frame = function() {
-  'use strict';
-  this.score = [null, null];
+  this._firstRoll = null;
+  this._secondRoll = null;
 };
 
-Frame.prototype.score = function() {
-  return this.score;
+Frame.prototype._firstRoll = function() {
+  return this._firstRoll;
+};
+
+Frame.prototype._secondRoll = function() {
+  return this._firstRoll;
 };
