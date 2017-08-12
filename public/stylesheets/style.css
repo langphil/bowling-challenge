@@ -1,0 +1,35 @@
+body {
+  background: #fefdfb;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+/* Fonts */
+h1 {
+  font-size: 1.8em;
+}
+
+/* Forms and Buttons */
+
+button {
+  color: #FFFFFF;
+  background-color: grey;
+  border: none;
+  border-radius: 15px;
+  padding: 1em 1.6em 1em 1.6em;
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+
+/* Flex */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
