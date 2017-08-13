@@ -1,23 +1,30 @@
 body {
-  background: #fefdfb;
+  background: black;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #fefdfb;
 }
 
 /* Fonts */
-h1 {
-  font-size: 1.8em;
+h1{
+font-size: 60px;
+font-family: 'Futura';
+color: #fff;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+text-align: center;
 }
 
 /* Forms and Buttons */
 
 button {
   color: #FFFFFF;
-  background-color: grey;
+  background-color: #ff0080;
   border: none;
   border-radius: 15px;
   padding: 1em 1.6em 1em 1.6em;
   font-size: 1.2em;
-  margin-top: 1em;
+  margin-top: 3em;
+  box-shadow: 0 0 5px #ff0080, 0 0 10px #ff0080, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+
 }
 
 /* Flex */
@@ -32,4 +39,13 @@ nav {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.play {
+  display: none;
+}
+
+.bowling-img {
+  width: 30%;
+  margin: auto;
 }

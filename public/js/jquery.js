@@ -1,5 +1,10 @@
 $(document).ready(function() {
-  // var game = new Game();
-  //
-  // $('#score').text(game.score());
+
+  $('.start-game').click(function() {
+    game = new Game();
+    $('.start').hide();
+    $('.play').show();
+  });
+
+    $('#score').text(game.score());
 });

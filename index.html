@@ -5,19 +5,25 @@
     <title>Betty's Bowling Alley</title>
     <link rel="shortcut icon" href="https://www.freefavicon.com/freefavicons/sports/bowling-ball-152-75367.png">
     <link rel="stylesheet" type="text/css" href="public/stylesheets/style.css">
-    <script src="public/js/game.js"></script>
-    <script src="public/js/frame.js"></script>
-    <script src="public/js/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
     <nav>
       <h1>Betty's Bowling Alley</h1>
     </nav>
     <section class="container">
-      <h2 id="frame">Round: 0</h2>
-      <h2 id="score">Score: 0</h2>
-      <button type="button" name="roll">Roll Ball</button>
+      <article class="start">
+        <!-- <img class="bowling-img" src="public/images/bowling.jpg" alt="Bowling icon"> -->
+        <button class="start-game" type="button" name="start-game">Play</button>
+      </article>
+      <article class="play">
+        <h2 id="frame">Round: 0</h2>
+        <h2 id="score">Score: 0</h2>
+        <button type="button" name="roll">Roll Ball</button>
+      </article>
     </section>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="public/js/game.js"></script>
+    <script src="public/js/frame.js"></script>
+    <script src="public/js/jquery.js"></script>
   </body>
 </html>
